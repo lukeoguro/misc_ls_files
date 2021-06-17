@@ -58,6 +58,12 @@ git push -u <alias> <branch>
 Typically, you enter `origin` for the alias and `main` for the branch (this is the branch name of the remote repo).
 You can view all the data you entered in `.git/config`.
 
+## Personal access token
+
+I want to add a section here about using a personal access token (PAT).
+[Github is no longer accepting passwords when authenticating operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/), so I'm switching over to PAT.
+I'm following the guide [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
 ## Reviewing and undoing commits
 
 Okay, this is where things get a bit complicated.
