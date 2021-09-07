@@ -47,6 +47,7 @@ git remote add <alias> <url>
 ```
 
 Entering `git remote` alone will list all the remote repositories you've entered. `add` is the sub-command that adds the `alias` of the remote repo (usually `origin`) and its `url`.
+As a side note, you can view the current url with `git remote -v` and change the remote url with `git remote set-url <alias> <new_url>`.
 
 You can push to the remote repo with:
 
